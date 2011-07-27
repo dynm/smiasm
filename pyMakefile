@@ -1,0 +1,17 @@
+
+ifdef PREFIX
+PREFOPT=--prefix $(PREFIX)
+else
+PREFOPT=
+endif
+
+all:
+	./setup.py build
+
+install:
+	./setup.py install $(PREFOPT)
+
+clean:
+	./setup.py clean
+
+.PHONY: all install clean
