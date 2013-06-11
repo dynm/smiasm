@@ -1,3 +1,3 @@
 miasm = http://code.google.com/p/miasm/
-elfesteem = http://hg.secdev.org/elfesteem
-grandalf = [git]https://github.com/bdcht/grandalf.git
+elfesteem = http://code.google.com/p/elfesteem/
+grandalf =  http://code.google.com/p/grandalf/
